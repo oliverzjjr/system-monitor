@@ -1,5 +1,5 @@
 ![Docker Build](https://github.com/verz-lockinin/system-monitor/actions/workflows/docker-build.yml/badge.svg)
-\# System Monitor
+# System Monitor
 
 
 
@@ -7,7 +7,7 @@ A simple Bash script, containerized with Docker, that generates a quick system h
 
 
 
-\## Why I built this
+## Why I built this
 
 
 
@@ -15,7 +15,7 @@ This was my first hands-on Docker project, built to learn the full container wor
 
 
 
-\## What it does
+## What it does
 
 
 
@@ -55,21 +55,21 @@ Mem: 7.6Gi 776Mi 5.8Gi 26Mi 1.2Gi 6.9Gi
 
 
 
-\## Tech used
+## Tech used
 
 
 
-\- Bash scripting (`df`, `free`, `uptime`)
+- Bash scripting (`df`, `free`, `uptime`)
 
-\- Docker (Dockerfile, image builds, containers)
+- Docker (Dockerfile, image builds, containers)
 
-\- Ubuntu base image
+- Ubuntu base image
 
-\- Git \& GitHub
+- Git \& GitHub
 
 
 
-\## How to run it yourself
+## How to run it yourself
 
 
 
@@ -92,25 +92,25 @@ docker pull oliverzjjr/system-monitor
 docker run oliverzjjr/system-monitor
 ```
 
-\## What I learned
+## What I learned
 
 
 
-\- Writing a Dockerfile from scratch (`FROM`, `COPY`, `RUN`, `CMD`)
+- Writing a Dockerfile from scratch (`FROM`, `COPY`, `RUN`, `CMD`)
 
-\- The difference between a Docker image and a running container
+- The difference between a Docker image and a running container
 
-\- Debugging real container errors (Windows line-ending issues with Bash scripts)
+- Debugging real container errors (Windows line-ending issues with Bash scripts)
 
-\- Publishing a Docker project properly to GitHub
-
-
-
-\## Next steps
+- Publishing a Docker project properly to GitHub
 
 
 
-\- \[ ] Publish the image to Docker Hub
+## Next steps
 
-\- \[ ] Add a GitHub Actions workflow to auto-build on every push
+
+
+- \[X] Publish the image to Docker Hub
+
+- \[X] Add a GitHub Actions workflow to auto-build on every push
 
