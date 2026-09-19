@@ -85,7 +85,12 @@ docker run system-monitor
 
 ```
 
+## Or run it directly from Docker Hub
 
+```bash
+docker pull oliverzjjr/system-monitor
+docker run oliverzjjr/system-monitor
+```
 
 \## What I learned
 
