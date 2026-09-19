@@ -1,3 +1,4 @@
+![Docker Build](https://github.com/verz-lockinin/system-monitor/actions/workflows/docker-build.yml/badge.svg)
 \# System Monitor
 
 
